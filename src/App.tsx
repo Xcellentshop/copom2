@@ -83,7 +83,7 @@ function App() {
                 Descrição: ${description}
                 
                 Use o seguinte formato inicial:
-                "Por volta das ${formattedDateTime} a equipe ${group} deslocou até o endereço ${formattedAddress}, no local..."
+                "Na data e horário ${formattedDateTime} a equipe ${group} deslocou até o endereço ${formattedAddress}, no local..."
                 
                 ${summarizeMore ? 'Faça um resumo técnico policial da PMPR em até 4 linhas.' : 'Faça um resumo técnico policial da PMPR em até 8 linhas.'}
                 No final, liste:
